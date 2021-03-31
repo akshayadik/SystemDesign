@@ -178,8 +178,7 @@ Sample Output:
 
 ## License
 
-This project is created as part of Credit Suisse assignment.
+This project is created as part for educational purpose.
 
 ## Acknowledgments
 * Referred documentation related to Spring, Spring API gateway, Feign, Redis, Netflix Eureka etc.
-* Design and developement work is individual contribution and no code is copied from internet or plagiarized
