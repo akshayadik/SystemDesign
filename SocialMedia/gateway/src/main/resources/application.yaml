@@ -1,0 +1,42 @@
+spring:
+  application:
+    name: api-gateway
+  cloud:
+    discovery:
+      enabled: true
+    gateway:
+      discovery:
+        locator:
+          enabled: true
+          lower-case-service-id: true
+      routes:
+        - id: userservice
+          uri: http://localhost:8125/userservice/
+          predicates:
+            - Path=/userservice/**
+        - id: newsfeed
+          uri: http://localhost:8126/newsfeed/
+          predicates:
+            - Path=/newsfeed/**
+server:
+  port: 8888
+
+eureka:
+  instance:
+    hostname: localhost
+    prefer-ip-address: true
+  client:
+    service-url:
+      defaultZone: http://admin:admin@localhost:9090/eureka
+    healthcheck:
+      enabled: true
+    lease:
+      duration: 5
+
+management:
+  security:
+    enabled: false
+
+logging:
+  level:
+    com.us: DEBUG

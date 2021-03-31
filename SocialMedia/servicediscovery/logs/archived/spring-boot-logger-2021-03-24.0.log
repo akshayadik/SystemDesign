@@ -1,0 +1,40 @@
+2021-03-24 22:09:32,786 INFO org.springframework.boot.StartupInfoLogger [main] Starting ServicediscoveryApplicationTests using Java 11.0.2 on DESKTOP-PH3GN71 with PID 8728 (started by Lenovo in C:\Users\Lenovo\workspace\intellij\assigment\servicediscovery)
+2021-03-24 22:09:32,794 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-03-24 22:09:32,810 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 6.1.7.Final
+2021-03-24 22:09:36,205 INFO org.springframework.cloud.context.scope.GenericScope [main] BeanFactory id=970b7043-aca3-3354-bb55-c6ec582de597
+2021-03-24 22:09:38,723 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2021-03-24 22:09:42,540 INFO org.springframework.cloud.netflix.eureka.config.DiscoveryClientOptionalArgsConfiguration [main] Eureka HTTP Client uses Jersey
+2021-03-24 22:09:42,841 WARN org.springframework.cloud.loadbalancer.config.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger [main] Spring Cloud LoadBalancer is currently working with the default cache. You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2021-03-24 22:09:43,289 INFO org.springframework.cloud.netflix.eureka.InstanceInfoFactory [main] Setting initial instance status as: STARTING
+2021-03-24 22:09:43,434 INFO com.netflix.discovery.DiscoveryClient [main] Initializing Eureka in region us-east-1
+2021-03-24 22:09:43,437 INFO com.netflix.discovery.DiscoveryClient [main] Client configured to neither register nor query for data.
+2021-03-24 22:09:43,480 INFO com.netflix.discovery.DiscoveryClient [main] Discovery Client initialized at timestamp 1616648983472 with initial instances count: 0
+2021-03-24 22:09:43,648 INFO com.netflix.eureka.DefaultEurekaServerContext [main] Initializing ...
+2021-03-24 22:09:43,672 INFO com.netflix.eureka.cluster.PeerEurekaNodes [main] Adding new peer nodes [http://admin:admin@localhost:9090/eureka/]
+2021-03-24 22:09:44,940 INFO com.netflix.discovery.provider.DiscoveryJerseyProvider [main] Using JSON encoding codec LegacyJacksonJson
+2021-03-24 22:09:44,940 INFO com.netflix.discovery.provider.DiscoveryJerseyProvider [main] Using JSON decoding codec LegacyJacksonJson
+2021-03-24 22:09:44,956 INFO com.netflix.discovery.provider.DiscoveryJerseyProvider [main] Using XML encoding codec XStreamXml
+2021-03-24 22:09:44,956 INFO com.netflix.discovery.provider.DiscoveryJerseyProvider [main] Using XML decoding codec XStreamXml
+2021-03-24 22:09:45,539 INFO com.netflix.eureka.cluster.PeerEurekaNodes [main] Replica node URL:  http://admin:admin@localhost:9090/eureka/
+2021-03-24 22:09:45,555 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [main] Finished initializing remote region registries. All known remote regions: []
+2021-03-24 22:09:45,555 INFO com.netflix.eureka.DefaultEurekaServerContext [main] Initialized
+2021-03-24 22:09:46,071 INFO org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver [main] Exposing 2 endpoint(s) beneath base path '/actuator'
+2021-03-24 22:09:46,216 INFO org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry [main] Registering application SERVICEDISCOVERY with eureka with status UP
+2021-03-24 22:09:46,232 INFO org.springframework.cloud.netflix.eureka.server.EurekaServerBootstrap [Thread-9] Setting the eureka configuration..
+2021-03-24 22:09:46,264 INFO org.springframework.cloud.netflix.eureka.server.EurekaServerBootstrap [Thread-9] isAws returned false
+2021-03-24 22:09:46,272 INFO org.springframework.cloud.netflix.eureka.server.EurekaServerBootstrap [Thread-9] Initialized server context
+2021-03-24 22:09:46,272 INFO com.netflix.eureka.registry.PeerAwareInstanceRegistryImpl [Thread-9] Got 1 instances from neighboring DS node
+2021-03-24 22:09:46,272 INFO com.netflix.eureka.registry.PeerAwareInstanceRegistryImpl [Thread-9] Renew threshold is: 1
+2021-03-24 22:09:46,280 INFO org.springframework.boot.StartupInfoLogger [main] Started ServicediscoveryApplicationTests in 16.003 seconds (JVM running for 19.613)
+2021-03-24 22:09:46,272 INFO com.netflix.eureka.registry.PeerAwareInstanceRegistryImpl [Thread-9] Changing status to UP
+2021-03-24 22:09:46,408 INFO org.springframework.cloud.netflix.eureka.server.EurekaServerInitializerConfiguration [Thread-9] Started Eureka Server
+2021-03-24 22:09:47,693 INFO org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry [SpringContextShutdownHook] Unregistering application SERVICEDISCOVERY with eureka with status DOWN
+2021-03-24 22:09:47,693 INFO org.springframework.cloud.netflix.eureka.server.EurekaServerBootstrap [SpringContextShutdownHook] Shutting down Eureka Server..
+2021-03-24 22:09:47,717 INFO com.netflix.eureka.DefaultEurekaServerContext [SpringContextShutdownHook] Shutting down ...
+2021-03-24 22:09:47,787 INFO com.netflix.eureka.DefaultEurekaServerContext [SpringContextShutdownHook] Shut down
+2021-03-24 22:09:47,795 INFO org.springframework.cloud.netflix.eureka.server.EurekaServerBootstrap [SpringContextShutdownHook] Eureka Service is now shutdown...
+2021-03-24 22:09:47,795 INFO com.netflix.eureka.DefaultEurekaServerContext [SpringContextShutdownHook] Shutting down ...
+2021-03-24 22:09:47,821 INFO com.netflix.eureka.DefaultEurekaServerContext [SpringContextShutdownHook] Shut down
+2021-03-24 22:09:47,837 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [SpringContextShutdownHook] Shutting down ExecutorService 'applicationTaskExecutor'
+2021-03-24 22:09:47,845 INFO com.netflix.discovery.DiscoveryClient [SpringContextShutdownHook] Shutting down DiscoveryClient ...
+2021-03-24 22:09:47,845 INFO com.netflix.discovery.DiscoveryClient [SpringContextShutdownHook] Completed shut down of DiscoveryClient

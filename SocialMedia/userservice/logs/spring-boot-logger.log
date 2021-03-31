@@ -1,0 +1,444 @@
+2021-03-25 00:01:30,309 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 6.1.7.Final
+2021-03-25 00:01:30,458 INFO org.springframework.boot.StartupInfoLogger [main] Starting UserserviceApplicationTests using Java 1.8.0_271 on DESKTOP-PH3GN71 with PID 14448 (started by Lenovo in C:\Users\Lenovo\workspace\intellij\assigment\userservice)
+2021-03-25 00:01:30,461 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.4.4, Spring v5.3.5
+2021-03-25 00:01:30,462 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-03-25 00:01:33,449 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-03-25 00:01:33,457 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-03-25 00:01:33,518 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 20 ms. Found 0 Redis repository interfaces.
+2021-03-25 00:01:34,464 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-03-25 00:01:34,465 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-03-25 00:01:34,956 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 489 ms. Found 3 Redis repository interfaces.
+2021-03-25 00:01:35,954 INFO org.springframework.cloud.context.scope.GenericScope [main] BeanFactory id=747cc59c-78a9-3dfd-ad02-7507aaddcfa0
+2021-03-25 00:01:37,559 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 0 (http)
+2021-03-25 00:01:37,629 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-auto-1"]
+2021-03-25 00:01:37,632 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2021-03-25 00:01:37,633 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.44]
+2021-03-25 00:01:38,148 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2021-03-25 00:01:38,149 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 7612 ms
+2021-03-25 00:01:42,247 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2021-03-25 00:01:47,254 INFO org.springframework.cloud.netflix.eureka.config.DiscoveryClientOptionalArgsConfiguration [main] Eureka HTTP Client uses RestTemplate.
+2021-03-25 00:01:47,714 WARN org.springframework.cloud.loadbalancer.config.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger [main] Spring Cloud LoadBalancer is currently working with the default cache. You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2021-03-25 00:01:47,771 INFO org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver [main] Exposing 2 endpoint(s) beneath base path '/actuator'
+2021-03-25 00:01:49,966 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-auto-1"]
+2021-03-25 00:01:50,058 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 64754 (http) with context path ''
+2021-03-25 00:01:50,064 INFO org.springframework.cloud.netflix.eureka.serviceregistry.EurekaAutoServiceRegistration [main] Updating port to 64754
+2021-03-25 00:01:50,083 INFO org.springframework.cloud.netflix.eureka.InstanceInfoFactory [main] Setting initial instance status as: STARTING
+2021-03-25 00:01:50,250 INFO com.netflix.discovery.DiscoveryClient [main] Initializing Eureka in region us-east-1
+2021-03-25 00:01:50,269 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [main] Resolving eureka endpoints via configuration
+2021-03-25 00:01:50,872 INFO com.netflix.discovery.DiscoveryClient [main] Disable delta property : false
+2021-03-25 00:01:50,877 INFO com.netflix.discovery.DiscoveryClient [main] Single vip registry refresh property : null
+2021-03-25 00:01:50,879 INFO com.netflix.discovery.DiscoveryClient [main] Force full registry fetch : false
+2021-03-25 00:01:50,880 INFO com.netflix.discovery.DiscoveryClient [main] Application is null : false
+2021-03-25 00:01:50,881 INFO com.netflix.discovery.DiscoveryClient [main] Registered Applications size is zero : true
+2021-03-25 00:01:50,882 INFO com.netflix.discovery.DiscoveryClient [main] Application version is -1: true
+2021-03-25 00:01:50,883 INFO com.netflix.discovery.DiscoveryClient [main] Getting all instance registry info from the eureka server
+2021-03-25 00:01:51,778 INFO com.netflix.discovery.DiscoveryClient [main] The response status is 200
+2021-03-25 00:01:51,789 INFO com.netflix.discovery.DiscoveryClient [main] Starting heartbeat executor: renew interval is: 10
+2021-03-25 00:01:51,797 INFO com.netflix.discovery.InstanceInfoReplicator [main] InstanceInfoReplicator onDemand update allowed rate per min is 4
+2021-03-25 00:01:51,812 INFO com.netflix.discovery.DiscoveryClient [main] Discovery Client initialized at timestamp 1616655711808 with initial instances count: 0
+2021-03-25 00:01:51,832 INFO org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry [main] Registering application DATASTORE with eureka with status UP
+2021-03-25 00:01:51,839 INFO com.netflix.discovery.DiscoveryClient$3 [main] Saw local status change event StatusChangeEvent [timestamp=1616655711839, current=UP, previous=STARTING]
+2021-03-25 00:01:51,848 WARN com.netflix.discovery.InstanceInfoReplicator [main] Ignoring onDemand update due to rate limiter
+2021-03-25 00:01:52,739 INFO org.springframework.boot.StartupInfoLogger [main] Started UserserviceApplicationTests in 24.769 seconds (JVM running for 31.458)
+2021-03-25 00:01:53,886 WARN org.springframework.boot.actuate.health.AbstractHealthIndicator [DiscoveryClient-InstanceInfoReplicator-0] Redis health check failed
+org.springframework.data.redis.RedisConnectionFailureException: Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.connection.jedis.JedisConnectionFactory.fetchJedisConnector(JedisConnectionFactory.java:283)
+	at org.springframework.data.redis.connection.jedis.JedisConnectionFactory.getConnection(JedisConnectionFactory.java:485)
+	at org.springframework.data.redis.core.RedisConnectionUtils.fetchConnection(RedisConnectionUtils.java:193)
+	at org.springframework.data.redis.core.RedisConnectionUtils.doGetConnection(RedisConnectionUtils.java:144)
+	at org.springframework.data.redis.core.RedisConnectionUtils.getConnection(RedisConnectionUtils.java:105)
+	at org.springframework.data.redis.core.RedisConnectionUtils.getConnection(RedisConnectionUtils.java:92)
+	at org.springframework.boot.actuate.redis.RedisHealthIndicator.doHealthCheck(RedisHealthIndicator.java:49)
+	at org.springframework.boot.actuate.health.AbstractHealthIndicator.health(AbstractHealthIndicator.java:82)
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+	at java.util.HashMap$ValueSpliterator.forEachRemaining(HashMap.java:1628)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:482)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:472)
+	at java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:708)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:499)
+	at org.springframework.cloud.netflix.eureka.EurekaHealthCheckHandler.getStatus(EurekaHealthCheckHandler.java:138)
+	at org.springframework.cloud.netflix.eureka.EurekaHealthCheckHandler.getHealthStatus(EurekaHealthCheckHandler.java:128)
+	at org.springframework.cloud.netflix.eureka.EurekaHealthCheckHandler.getStatus(EurekaHealthCheckHandler.java:124)
+	at com.netflix.discovery.DiscoveryClient.refreshInstanceInfo(DiscoveryClient.java:1440)
+	at com.netflix.discovery.InstanceInfoReplicator.run(InstanceInfoReplicator.java:117)
+	at com.netflix.discovery.InstanceInfoReplicator$1.run(InstanceInfoReplicator.java:101)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run$$$capture(FutureTask.java:266)
+	at java.util.concurrent.FutureTask.run(FutureTask.java)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at redis.clients.jedis.util.Pool.getResource(Pool.java:59)
+	at redis.clients.jedis.JedisPool.getResource(JedisPool.java:288)
+	at redis.clients.jedis.JedisPool.getResource(JedisPool.java:15)
+	at org.springframework.data.redis.connection.jedis.JedisConnectionFactory.fetchJedisConnector(JedisConnectionFactory.java:273)
+	... 28 common frames omitted
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: Failed connecting to localhost:6379
+	at redis.clients.jedis.Connection.connect(Connection.java:165)
+	at redis.clients.jedis.BinaryClient.connect(BinaryClient.java:109)
+	at redis.clients.jedis.BinaryJedis.connect(BinaryJedis.java:1904)
+	at redis.clients.jedis.JedisFactory.makeObject(JedisFactory.java:130)
+	at org.apache.commons.pool2.impl.GenericObjectPool.create(GenericObjectPool.java:918)
+	at org.apache.commons.pool2.impl.GenericObjectPool.borrowObject(GenericObjectPool.java:431)
+	at org.apache.commons.pool2.impl.GenericObjectPool.borrowObject(GenericObjectPool.java:356)
+	at redis.clients.jedis.util.Pool.getResource(Pool.java:50)
+	... 31 common frames omitted
+Caused by: java.net.SocketTimeoutException: connect timed out
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:81)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:476)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:218)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:200)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:162)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:394)
+	at java.net.Socket.connect(Socket.java:606)
+	at redis.clients.jedis.DefaultJedisSocketFactory.createSocket(DefaultJedisSocketFactory.java:53)
+	at redis.clients.jedis.Connection.connect(Connection.java:158)
+	... 38 common frames omitted
+2021-03-25 00:01:53,892 INFO com.netflix.discovery.DiscoveryClient$3 [DiscoveryClient-InstanceInfoReplicator-0] Saw local status change event StatusChangeEvent [timestamp=1616655713892, current=DOWN, previous=UP]
+2021-03-25 00:01:53,893 WARN com.netflix.discovery.InstanceInfoReplicator [DiscoveryClient-InstanceInfoReplicator-0] Ignoring onDemand update due to rate limiter
+2021-03-25 00:01:53,893 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-InstanceInfoReplicator-0] DiscoveryClient_DATASTORE/host.docker.internal:datastore:0: registering service...
+2021-03-25 00:01:54,078 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-InstanceInfoReplicator-0] DiscoveryClient_DATASTORE/host.docker.internal:datastore:0 - registration status: 204
+2021-03-25 00:01:55,724 INFO org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry [SpringContextShutdownHook] Unregistering application DATASTORE with eureka with status DOWN
+2021-03-25 00:01:56,089 WARN org.springframework.boot.actuate.health.AbstractHealthIndicator [DiscoveryClient-InstanceInfoReplicator-0] Redis health check failed
+org.springframework.data.redis.RedisConnectionFailureException: Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.connection.jedis.JedisConnectionFactory.fetchJedisConnector(JedisConnectionFactory.java:283)
+	at org.springframework.data.redis.connection.jedis.JedisConnectionFactory.getConnection(JedisConnectionFactory.java:485)
+	at org.springframework.data.redis.core.RedisConnectionUtils.fetchConnection(RedisConnectionUtils.java:193)
+	at org.springframework.data.redis.core.RedisConnectionUtils.doGetConnection(RedisConnectionUtils.java:144)
+	at org.springframework.data.redis.core.RedisConnectionUtils.getConnection(RedisConnectionUtils.java:105)
+	at org.springframework.data.redis.core.RedisConnectionUtils.getConnection(RedisConnectionUtils.java:92)
+	at org.springframework.boot.actuate.redis.RedisHealthIndicator.doHealthCheck(RedisHealthIndicator.java:49)
+	at org.springframework.boot.actuate.health.AbstractHealthIndicator.health(AbstractHealthIndicator.java:82)
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+	at java.util.HashMap$ValueSpliterator.forEachRemaining(HashMap.java:1628)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:482)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:472)
+	at java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:708)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:499)
+	at org.springframework.cloud.netflix.eureka.EurekaHealthCheckHandler.getStatus(EurekaHealthCheckHandler.java:138)
+	at org.springframework.cloud.netflix.eureka.EurekaHealthCheckHandler.getHealthStatus(EurekaHealthCheckHandler.java:128)
+	at org.springframework.cloud.netflix.eureka.EurekaHealthCheckHandler.getStatus(EurekaHealthCheckHandler.java:124)
+	at com.netflix.discovery.DiscoveryClient.refreshInstanceInfo(DiscoveryClient.java:1440)
+	at com.netflix.discovery.InstanceInfoReplicator.run(InstanceInfoReplicator.java:117)
+	at com.netflix.discovery.InstanceInfoReplicator$1.run(InstanceInfoReplicator.java:101)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run$$$capture(FutureTask.java:266)
+	at java.util.concurrent.FutureTask.run(FutureTask.java)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at redis.clients.jedis.util.Pool.getResource(Pool.java:59)
+	at redis.clients.jedis.JedisPool.getResource(JedisPool.java:288)
+	at redis.clients.jedis.JedisPool.getResource(JedisPool.java:15)
+	at org.springframework.data.redis.connection.jedis.JedisConnectionFactory.fetchJedisConnector(JedisConnectionFactory.java:273)
+	... 28 common frames omitted
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: Failed connecting to localhost:6379
+	at redis.clients.jedis.Connection.connect(Connection.java:165)
+	at redis.clients.jedis.BinaryClient.connect(BinaryClient.java:109)
+	at redis.clients.jedis.BinaryJedis.connect(BinaryJedis.java:1904)
+	at redis.clients.jedis.JedisFactory.makeObject(JedisFactory.java:130)
+	at org.apache.commons.pool2.impl.GenericObjectPool.create(GenericObjectPool.java:918)
+	at org.apache.commons.pool2.impl.GenericObjectPool.borrowObject(GenericObjectPool.java:431)
+	at org.apache.commons.pool2.impl.GenericObjectPool.borrowObject(GenericObjectPool.java:356)
+	at redis.clients.jedis.util.Pool.getResource(Pool.java:50)
+	... 31 common frames omitted
+Caused by: java.net.SocketTimeoutException: connect timed out
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:81)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:476)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:218)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:200)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:162)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:394)
+	at java.net.Socket.connect(Socket.java:606)
+	at redis.clients.jedis.DefaultJedisSocketFactory.createSocket(DefaultJedisSocketFactory.java:53)
+	at redis.clients.jedis.Connection.connect(Connection.java:158)
+	... 38 common frames omitted
+2021-03-25 00:01:56,207 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [SpringContextShutdownHook] Shutting down ExecutorService 'applicationTaskExecutor'
+2021-03-25 00:01:56,237 INFO com.netflix.discovery.DiscoveryClient [SpringContextShutdownHook] Shutting down DiscoveryClient ...
+2021-03-25 00:01:59,243 INFO com.netflix.discovery.DiscoveryClient [SpringContextShutdownHook] Unregistering ...
+2021-03-25 00:01:59,259 INFO com.netflix.discovery.DiscoveryClient [SpringContextShutdownHook] DiscoveryClient_DATASTORE/host.docker.internal:datastore:0 - deregister  status: 200
+2021-03-25 00:01:59,285 INFO com.netflix.discovery.DiscoveryClient [SpringContextShutdownHook] Completed shut down of DiscoveryClient
+2021-03-25 00:03:59,674 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 6.1.7.Final
+2021-03-25 00:03:59,755 INFO org.springframework.boot.StartupInfoLogger [main] Starting UserserviceApplicationTests using Java 1.8.0_271 on DESKTOP-PH3GN71 with PID 32 (started by Lenovo in C:\Users\Lenovo\workspace\intellij\assigment\userservice)
+2021-03-25 00:03:59,758 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.4.4, Spring v5.3.5
+2021-03-25 00:03:59,760 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-03-25 00:04:02,327 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-03-25 00:04:02,332 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-03-25 00:04:02,396 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 23 ms. Found 0 Redis repository interfaces.
+2021-03-25 00:04:03,293 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-03-25 00:04:03,295 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-03-25 00:04:03,834 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 537 ms. Found 3 Redis repository interfaces.
+2021-03-25 00:04:04,697 INFO org.springframework.cloud.context.scope.GenericScope [main] BeanFactory id=747cc59c-78a9-3dfd-ad02-7507aaddcfa0
+2021-03-25 00:04:06,407 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 0 (http)
+2021-03-25 00:04:06,441 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-auto-1"]
+2021-03-25 00:04:06,444 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2021-03-25 00:04:06,446 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.44]
+2021-03-25 00:04:06,942 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2021-03-25 00:04:06,943 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 7109 ms
+2021-03-25 00:04:10,716 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2021-03-25 00:04:15,442 INFO org.springframework.cloud.netflix.eureka.config.DiscoveryClientOptionalArgsConfiguration [main] Eureka HTTP Client uses RestTemplate.
+2021-03-25 00:04:15,981 WARN org.springframework.cloud.loadbalancer.config.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger [main] Spring Cloud LoadBalancer is currently working with the default cache. You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2021-03-25 00:04:16,026 INFO org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver [main] Exposing 2 endpoint(s) beneath base path '/actuator'
+2021-03-25 00:04:18,186 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-auto-1"]
+2021-03-25 00:04:18,253 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 64783 (http) with context path ''
+2021-03-25 00:04:18,266 INFO org.springframework.cloud.netflix.eureka.serviceregistry.EurekaAutoServiceRegistration [main] Updating port to 64783
+2021-03-25 00:04:18,283 INFO org.springframework.cloud.netflix.eureka.InstanceInfoFactory [main] Setting initial instance status as: STARTING
+2021-03-25 00:04:18,446 INFO com.netflix.discovery.DiscoveryClient [main] Initializing Eureka in region us-east-1
+2021-03-25 00:04:18,468 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [main] Resolving eureka endpoints via configuration
+2021-03-25 00:04:19,206 INFO com.netflix.discovery.DiscoveryClient [main] Disable delta property : false
+2021-03-25 00:04:19,207 INFO com.netflix.discovery.DiscoveryClient [main] Single vip registry refresh property : null
+2021-03-25 00:04:19,208 INFO com.netflix.discovery.DiscoveryClient [main] Force full registry fetch : false
+2021-03-25 00:04:19,209 INFO com.netflix.discovery.DiscoveryClient [main] Application is null : false
+2021-03-25 00:04:19,210 INFO com.netflix.discovery.DiscoveryClient [main] Registered Applications size is zero : true
+2021-03-25 00:04:19,211 INFO com.netflix.discovery.DiscoveryClient [main] Application version is -1: true
+2021-03-25 00:04:19,212 INFO com.netflix.discovery.DiscoveryClient [main] Getting all instance registry info from the eureka server
+2021-03-25 00:04:20,104 INFO com.netflix.discovery.DiscoveryClient [main] The response status is 200
+2021-03-25 00:04:20,112 INFO com.netflix.discovery.DiscoveryClient [main] Starting heartbeat executor: renew interval is: 10
+2021-03-25 00:04:20,123 INFO com.netflix.discovery.InstanceInfoReplicator [main] InstanceInfoReplicator onDemand update allowed rate per min is 4
+2021-03-25 00:04:20,152 INFO com.netflix.discovery.DiscoveryClient [main] Discovery Client initialized at timestamp 1616655860143 with initial instances count: 0
+2021-03-25 00:04:20,176 INFO org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry [main] Registering application DATASTORE with eureka with status UP
+2021-03-25 00:04:20,180 INFO com.netflix.discovery.DiscoveryClient$3 [main] Saw local status change event StatusChangeEvent [timestamp=1616655860180, current=UP, previous=STARTING]
+2021-03-25 00:04:20,249 WARN com.netflix.discovery.InstanceInfoReplicator [main] Ignoring onDemand update due to rate limiter
+2021-03-25 00:04:21,234 INFO org.springframework.boot.StartupInfoLogger [main] Started UserserviceApplicationTests in 24.265 seconds (JVM running for 30.189)
+2021-03-25 00:04:22,290 WARN org.springframework.boot.actuate.health.AbstractHealthIndicator [DiscoveryClient-InstanceInfoReplicator-0] Redis health check failed
+org.springframework.data.redis.RedisConnectionFailureException: Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.connection.jedis.JedisConnectionFactory.fetchJedisConnector(JedisConnectionFactory.java:283)
+	at org.springframework.data.redis.connection.jedis.JedisConnectionFactory.getConnection(JedisConnectionFactory.java:485)
+	at org.springframework.data.redis.core.RedisConnectionUtils.fetchConnection(RedisConnectionUtils.java:193)
+	at org.springframework.data.redis.core.RedisConnectionUtils.doGetConnection(RedisConnectionUtils.java:144)
+	at org.springframework.data.redis.core.RedisConnectionUtils.getConnection(RedisConnectionUtils.java:105)
+	at org.springframework.data.redis.core.RedisConnectionUtils.getConnection(RedisConnectionUtils.java:92)
+	at org.springframework.boot.actuate.redis.RedisHealthIndicator.doHealthCheck(RedisHealthIndicator.java:49)
+	at org.springframework.boot.actuate.health.AbstractHealthIndicator.health(AbstractHealthIndicator.java:82)
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+	at java.util.HashMap$ValueSpliterator.forEachRemaining(HashMap.java:1628)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:482)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:472)
+	at java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:708)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:499)
+	at org.springframework.cloud.netflix.eureka.EurekaHealthCheckHandler.getStatus(EurekaHealthCheckHandler.java:138)
+	at org.springframework.cloud.netflix.eureka.EurekaHealthCheckHandler.getHealthStatus(EurekaHealthCheckHandler.java:128)
+	at org.springframework.cloud.netflix.eureka.EurekaHealthCheckHandler.getStatus(EurekaHealthCheckHandler.java:124)
+	at com.netflix.discovery.DiscoveryClient.refreshInstanceInfo(DiscoveryClient.java:1440)
+	at com.netflix.discovery.InstanceInfoReplicator.run(InstanceInfoReplicator.java:117)
+	at com.netflix.discovery.InstanceInfoReplicator$1.run(InstanceInfoReplicator.java:101)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run$$$capture(FutureTask.java:266)
+	at java.util.concurrent.FutureTask.run(FutureTask.java)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at redis.clients.jedis.util.Pool.getResource(Pool.java:59)
+	at redis.clients.jedis.JedisPool.getResource(JedisPool.java:288)
+	at redis.clients.jedis.JedisPool.getResource(JedisPool.java:15)
+	at org.springframework.data.redis.connection.jedis.JedisConnectionFactory.fetchJedisConnector(JedisConnectionFactory.java:273)
+	... 28 common frames omitted
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: Failed connecting to localhost:6379
+	at redis.clients.jedis.Connection.connect(Connection.java:165)
+	at redis.clients.jedis.BinaryClient.connect(BinaryClient.java:109)
+	at redis.clients.jedis.BinaryJedis.connect(BinaryJedis.java:1904)
+	at redis.clients.jedis.JedisFactory.makeObject(JedisFactory.java:130)
+	at org.apache.commons.pool2.impl.GenericObjectPool.create(GenericObjectPool.java:918)
+	at org.apache.commons.pool2.impl.GenericObjectPool.borrowObject(GenericObjectPool.java:431)
+	at org.apache.commons.pool2.impl.GenericObjectPool.borrowObject(GenericObjectPool.java:356)
+	at redis.clients.jedis.util.Pool.getResource(Pool.java:50)
+	... 31 common frames omitted
+Caused by: java.net.SocketTimeoutException: connect timed out
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:81)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:476)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:218)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:200)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:162)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:394)
+	at java.net.Socket.connect(Socket.java:606)
+	at redis.clients.jedis.DefaultJedisSocketFactory.createSocket(DefaultJedisSocketFactory.java:53)
+	at redis.clients.jedis.Connection.connect(Connection.java:158)
+	... 38 common frames omitted
+2021-03-25 00:04:22,295 INFO com.netflix.discovery.DiscoveryClient$3 [DiscoveryClient-InstanceInfoReplicator-0] Saw local status change event StatusChangeEvent [timestamp=1616655862295, current=DOWN, previous=UP]
+2021-03-25 00:04:22,299 WARN com.netflix.discovery.InstanceInfoReplicator [DiscoveryClient-InstanceInfoReplicator-0] Ignoring onDemand update due to rate limiter
+2021-03-25 00:04:22,299 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-InstanceInfoReplicator-0] DiscoveryClient_DATASTORE/host.docker.internal:datastore:0: registering service...
+2021-03-25 00:04:22,514 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-InstanceInfoReplicator-0] DiscoveryClient_DATASTORE/host.docker.internal:datastore:0 - registration status: 204
+2021-03-25 00:04:24,303 INFO org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry [SpringContextShutdownHook] Unregistering application DATASTORE with eureka with status DOWN
+2021-03-25 00:04:24,522 WARN org.springframework.boot.actuate.health.AbstractHealthIndicator [DiscoveryClient-InstanceInfoReplicator-0] Redis health check failed
+org.springframework.data.redis.RedisConnectionFailureException: Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.connection.jedis.JedisConnectionFactory.fetchJedisConnector(JedisConnectionFactory.java:283)
+	at org.springframework.data.redis.connection.jedis.JedisConnectionFactory.getConnection(JedisConnectionFactory.java:485)
+	at org.springframework.data.redis.core.RedisConnectionUtils.fetchConnection(RedisConnectionUtils.java:193)
+	at org.springframework.data.redis.core.RedisConnectionUtils.doGetConnection(RedisConnectionUtils.java:144)
+	at org.springframework.data.redis.core.RedisConnectionUtils.getConnection(RedisConnectionUtils.java:105)
+	at org.springframework.data.redis.core.RedisConnectionUtils.getConnection(RedisConnectionUtils.java:92)
+	at org.springframework.boot.actuate.redis.RedisHealthIndicator.doHealthCheck(RedisHealthIndicator.java:49)
+	at org.springframework.boot.actuate.health.AbstractHealthIndicator.health(AbstractHealthIndicator.java:82)
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+	at java.util.HashMap$ValueSpliterator.forEachRemaining(HashMap.java:1628)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:482)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:472)
+	at java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:708)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:499)
+	at org.springframework.cloud.netflix.eureka.EurekaHealthCheckHandler.getStatus(EurekaHealthCheckHandler.java:138)
+	at org.springframework.cloud.netflix.eureka.EurekaHealthCheckHandler.getHealthStatus(EurekaHealthCheckHandler.java:128)
+	at org.springframework.cloud.netflix.eureka.EurekaHealthCheckHandler.getStatus(EurekaHealthCheckHandler.java:124)
+	at com.netflix.discovery.DiscoveryClient.refreshInstanceInfo(DiscoveryClient.java:1440)
+	at com.netflix.discovery.InstanceInfoReplicator.run(InstanceInfoReplicator.java:117)
+	at com.netflix.discovery.InstanceInfoReplicator$1.run(InstanceInfoReplicator.java:101)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run$$$capture(FutureTask.java:266)
+	at java.util.concurrent.FutureTask.run(FutureTask.java)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at redis.clients.jedis.util.Pool.getResource(Pool.java:59)
+	at redis.clients.jedis.JedisPool.getResource(JedisPool.java:288)
+	at redis.clients.jedis.JedisPool.getResource(JedisPool.java:15)
+	at org.springframework.data.redis.connection.jedis.JedisConnectionFactory.fetchJedisConnector(JedisConnectionFactory.java:273)
+	... 28 common frames omitted
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: Failed connecting to localhost:6379
+	at redis.clients.jedis.Connection.connect(Connection.java:165)
+	at redis.clients.jedis.BinaryClient.connect(BinaryClient.java:109)
+	at redis.clients.jedis.BinaryJedis.connect(BinaryJedis.java:1904)
+	at redis.clients.jedis.JedisFactory.makeObject(JedisFactory.java:130)
+	at org.apache.commons.pool2.impl.GenericObjectPool.create(GenericObjectPool.java:918)
+	at org.apache.commons.pool2.impl.GenericObjectPool.borrowObject(GenericObjectPool.java:431)
+	at org.apache.commons.pool2.impl.GenericObjectPool.borrowObject(GenericObjectPool.java:356)
+	at redis.clients.jedis.util.Pool.getResource(Pool.java:50)
+	... 31 common frames omitted
+Caused by: java.net.SocketTimeoutException: connect timed out
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:81)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:476)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:218)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:200)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:162)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:394)
+	at java.net.Socket.connect(Socket.java:606)
+	at redis.clients.jedis.DefaultJedisSocketFactory.createSocket(DefaultJedisSocketFactory.java:53)
+	at redis.clients.jedis.Connection.connect(Connection.java:158)
+	... 38 common frames omitted
+2021-03-25 00:04:25,143 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [SpringContextShutdownHook] Shutting down ExecutorService 'applicationTaskExecutor'
+2021-03-25 00:04:25,162 INFO com.netflix.discovery.DiscoveryClient [SpringContextShutdownHook] Shutting down DiscoveryClient ...
+2021-03-25 00:04:28,172 INFO com.netflix.discovery.DiscoveryClient [SpringContextShutdownHook] Unregistering ...
+2021-03-25 00:04:28,186 INFO com.netflix.discovery.DiscoveryClient [SpringContextShutdownHook] DiscoveryClient_DATASTORE/host.docker.internal:datastore:0 - deregister  status: 200
+2021-03-25 00:04:28,201 INFO com.netflix.discovery.DiscoveryClient [SpringContextShutdownHook] Completed shut down of DiscoveryClient
+2021-03-25 00:07:55,223 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 6.1.7.Final
+2021-03-25 00:07:55,299 INFO org.springframework.boot.StartupInfoLogger [main] Starting UserserviceApplicationTests using Java 1.8.0_271 on DESKTOP-PH3GN71 with PID 19188 (started by Lenovo in C:\Users\Lenovo\workspace\intellij\assigment\userservice)
+2021-03-25 00:07:55,302 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.4.4, Spring v5.3.5
+2021-03-25 00:07:55,303 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-03-25 00:07:57,345 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-03-25 00:07:57,352 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-03-25 00:07:57,386 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 9 ms. Found 0 Redis repository interfaces.
+2021-03-25 00:07:58,294 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-03-25 00:07:58,295 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-03-25 00:07:58,727 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 430 ms. Found 3 Redis repository interfaces.
+2021-03-25 00:07:59,526 INFO org.springframework.cloud.context.scope.GenericScope [main] BeanFactory id=747cc59c-78a9-3dfd-ad02-7507aaddcfa0
+2021-03-25 00:08:00,792 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 0 (http)
+2021-03-25 00:08:00,827 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-auto-1"]
+2021-03-25 00:08:00,830 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2021-03-25 00:08:00,834 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.44]
+2021-03-25 00:08:01,303 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2021-03-25 00:08:01,304 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 5929 ms
+2021-03-25 00:08:04,356 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2021-03-25 00:08:08,520 INFO org.springframework.cloud.netflix.eureka.config.DiscoveryClientOptionalArgsConfiguration [main] Eureka HTTP Client uses RestTemplate.
+2021-03-25 00:08:08,912 WARN org.springframework.cloud.loadbalancer.config.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger [main] Spring Cloud LoadBalancer is currently working with the default cache. You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2021-03-25 00:08:08,950 INFO org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver [main] Exposing 2 endpoint(s) beneath base path '/actuator'
+2021-03-25 00:08:10,567 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-auto-1"]
+2021-03-25 00:08:10,960 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 64848 (http) with context path ''
+2021-03-25 00:08:10,962 INFO org.springframework.cloud.netflix.eureka.serviceregistry.EurekaAutoServiceRegistration [main] Updating port to 64848
+2021-03-25 00:08:10,975 INFO org.springframework.cloud.netflix.eureka.InstanceInfoFactory [main] Setting initial instance status as: STARTING
+2021-03-25 00:08:11,090 INFO com.netflix.discovery.DiscoveryClient [main] Initializing Eureka in region us-east-1
+2021-03-25 00:08:11,107 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [main] Resolving eureka endpoints via configuration
+2021-03-25 00:08:11,706 INFO com.netflix.discovery.DiscoveryClient [main] Disable delta property : false
+2021-03-25 00:08:11,707 INFO com.netflix.discovery.DiscoveryClient [main] Single vip registry refresh property : null
+2021-03-25 00:08:11,708 INFO com.netflix.discovery.DiscoveryClient [main] Force full registry fetch : false
+2021-03-25 00:08:11,714 INFO com.netflix.discovery.DiscoveryClient [main] Application is null : false
+2021-03-25 00:08:11,716 INFO com.netflix.discovery.DiscoveryClient [main] Registered Applications size is zero : true
+2021-03-25 00:08:11,718 INFO com.netflix.discovery.DiscoveryClient [main] Application version is -1: true
+2021-03-25 00:08:11,719 INFO com.netflix.discovery.DiscoveryClient [main] Getting all instance registry info from the eureka server
+2021-03-25 00:08:12,340 INFO com.netflix.discovery.DiscoveryClient [main] The response status is 200
+2021-03-25 00:08:12,345 INFO com.netflix.discovery.DiscoveryClient [main] Starting heartbeat executor: renew interval is: 10
+2021-03-25 00:08:12,352 INFO com.netflix.discovery.InstanceInfoReplicator [main] InstanceInfoReplicator onDemand update allowed rate per min is 4
+2021-03-25 00:08:12,365 INFO com.netflix.discovery.DiscoveryClient [main] Discovery Client initialized at timestamp 1616656092363 with initial instances count: 0
+2021-03-25 00:08:12,387 INFO org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry [main] Registering application DATASTORE with eureka with status UP
+2021-03-25 00:08:12,391 INFO com.netflix.discovery.DiscoveryClient$3 [main] Saw local status change event StatusChangeEvent [timestamp=1616656092391, current=UP, previous=STARTING]
+2021-03-25 00:08:12,412 WARN com.netflix.discovery.InstanceInfoReplicator [main] Ignoring onDemand update due to rate limiter
+2021-03-25 00:08:12,512 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-InstanceInfoReplicator-0] DiscoveryClient_DATASTORE/host.docker.internal:datastore:0: registering service...
+2021-03-25 00:08:12,675 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-InstanceInfoReplicator-0] DiscoveryClient_DATASTORE/host.docker.internal:datastore:0 - registration status: 204
+2021-03-25 00:08:13,458 INFO org.springframework.boot.StartupInfoLogger [main] Started UserserviceApplicationTests in 20.139 seconds (JVM running for 26.22)
+2021-03-25 00:08:14,386 INFO org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry [SpringContextShutdownHook] Unregistering application DATASTORE with eureka with status DOWN
+2021-03-25 00:08:14,387 INFO com.netflix.discovery.DiscoveryClient$3 [SpringContextShutdownHook] Saw local status change event StatusChangeEvent [timestamp=1616656094387, current=DOWN, previous=UP]
+2021-03-25 00:08:14,388 WARN com.netflix.discovery.InstanceInfoReplicator [SpringContextShutdownHook] Ignoring onDemand update due to rate limiter
+2021-03-25 00:08:15,168 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [SpringContextShutdownHook] Shutting down ExecutorService 'applicationTaskExecutor'
+2021-03-25 00:08:15,185 INFO com.netflix.discovery.DiscoveryClient [SpringContextShutdownHook] Shutting down DiscoveryClient ...
+2021-03-25 00:08:18,189 INFO com.netflix.discovery.DiscoveryClient [SpringContextShutdownHook] Unregistering ...
+2021-03-25 00:08:18,218 INFO com.netflix.discovery.DiscoveryClient [SpringContextShutdownHook] DiscoveryClient_DATASTORE/host.docker.internal:datastore:0 - deregister  status: 200
+2021-03-25 00:08:18,231 INFO com.netflix.discovery.DiscoveryClient [SpringContextShutdownHook] Completed shut down of DiscoveryClient
+2021-03-25 00:08:55,545 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 6.1.7.Final
+2021-03-25 00:08:55,606 INFO org.springframework.boot.StartupInfoLogger [main] Starting UserserviceApplicationTests using Java 11.0.2 on DESKTOP-PH3GN71 with PID 3004 (started by Lenovo in C:\Users\Lenovo\workspace\intellij\assigment\userservice)
+2021-03-25 00:08:55,610 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.4.4, Spring v5.3.5
+2021-03-25 00:08:55,611 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-03-25 00:08:58,156 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-03-25 00:08:58,156 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-03-25 00:08:58,203 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 14 ms. Found 0 Redis repository interfaces.
+2021-03-25 00:08:58,994 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-03-25 00:08:58,995 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-03-25 00:08:59,455 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 457 ms. Found 3 Redis repository interfaces.
+2021-03-25 00:09:00,231 INFO org.springframework.cloud.context.scope.GenericScope [main] BeanFactory id=747cc59c-78a9-3dfd-ad02-7507aaddcfa0
+2021-03-25 00:09:01,423 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 0 (http)
+2021-03-25 00:09:01,453 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-auto-1"]
+2021-03-25 00:09:01,456 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2021-03-25 00:09:01,459 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.44]
+2021-03-25 00:09:01,843 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2021-03-25 00:09:01,850 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 6173 ms
+2021-03-25 00:09:04,750 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2021-03-25 00:09:09,126 INFO org.springframework.cloud.netflix.eureka.config.DiscoveryClientOptionalArgsConfiguration [main] Eureka HTTP Client uses RestTemplate.
+2021-03-25 00:09:09,512 WARN org.springframework.cloud.loadbalancer.config.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger [main] Spring Cloud LoadBalancer is currently working with the default cache. You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2021-03-25 00:09:09,555 INFO org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver [main] Exposing 2 endpoint(s) beneath base path '/actuator'
+2021-03-25 00:09:10,248 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-auto-1"]
+2021-03-25 00:09:10,305 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 64865 (http) with context path ''
+2021-03-25 00:09:10,307 INFO org.springframework.cloud.netflix.eureka.serviceregistry.EurekaAutoServiceRegistration [main] Updating port to 64865
+2021-03-25 00:09:10,339 INFO org.springframework.cloud.netflix.eureka.InstanceInfoFactory [main] Setting initial instance status as: STARTING
+2021-03-25 00:09:10,463 INFO com.netflix.discovery.DiscoveryClient [main] Initializing Eureka in region us-east-1
+2021-03-25 00:09:10,477 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [main] Resolving eureka endpoints via configuration
+2021-03-25 00:09:11,158 INFO com.netflix.discovery.DiscoveryClient [main] Disable delta property : false
+2021-03-25 00:09:11,160 INFO com.netflix.discovery.DiscoveryClient [main] Single vip registry refresh property : null
+2021-03-25 00:09:11,163 INFO com.netflix.discovery.DiscoveryClient [main] Force full registry fetch : false
+2021-03-25 00:09:11,167 INFO com.netflix.discovery.DiscoveryClient [main] Application is null : false
+2021-03-25 00:09:11,169 INFO com.netflix.discovery.DiscoveryClient [main] Registered Applications size is zero : true
+2021-03-25 00:09:11,171 INFO com.netflix.discovery.DiscoveryClient [main] Application version is -1: true
+2021-03-25 00:09:11,172 INFO com.netflix.discovery.DiscoveryClient [main] Getting all instance registry info from the eureka server
+2021-03-25 00:09:11,781 INFO com.netflix.discovery.DiscoveryClient [main] The response status is 200
+2021-03-25 00:09:11,790 INFO com.netflix.discovery.DiscoveryClient [main] Starting heartbeat executor: renew interval is: 10
+2021-03-25 00:09:11,798 INFO com.netflix.discovery.InstanceInfoReplicator [main] InstanceInfoReplicator onDemand update allowed rate per min is 4
+2021-03-25 00:09:11,812 INFO com.netflix.discovery.DiscoveryClient [main] Discovery Client initialized at timestamp 1616656151809 with initial instances count: 0
+2021-03-25 00:09:11,829 INFO org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry [main] Registering application DATASTORE with eureka with status UP
+2021-03-25 00:09:11,832 INFO com.netflix.discovery.DiscoveryClient$3 [main] Saw local status change event StatusChangeEvent [timestamp=1616656151832, current=UP, previous=STARTING]
+2021-03-25 00:09:11,841 WARN com.netflix.discovery.InstanceInfoReplicator [main] Ignoring onDemand update due to rate limiter
+2021-03-25 00:09:11,975 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-InstanceInfoReplicator-0] DiscoveryClient_DATASTORE/host.docker.internal:datastore:0: registering service...
+2021-03-25 00:09:12,282 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-InstanceInfoReplicator-0] DiscoveryClient_DATASTORE/host.docker.internal:datastore:0 - registration status: 204
+2021-03-25 00:09:13,092 INFO org.springframework.boot.StartupInfoLogger [main] Started UserserviceApplicationTests in 19.713 seconds (JVM running for 23.939)
+2021-03-25 00:09:14,876 INFO org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry [SpringContextShutdownHook] Unregistering application DATASTORE with eureka with status DOWN
+2021-03-25 00:09:14,877 INFO com.netflix.discovery.DiscoveryClient$3 [SpringContextShutdownHook] Saw local status change event StatusChangeEvent [timestamp=1616656154877, current=DOWN, previous=UP]
+2021-03-25 00:09:14,878 WARN com.netflix.discovery.InstanceInfoReplicator [SpringContextShutdownHook] Ignoring onDemand update due to rate limiter
+2021-03-25 00:09:15,518 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [SpringContextShutdownHook] Shutting down ExecutorService 'applicationTaskExecutor'
+2021-03-25 00:09:15,544 INFO com.netflix.discovery.DiscoveryClient [SpringContextShutdownHook] Shutting down DiscoveryClient ...
+2021-03-25 00:09:18,548 INFO com.netflix.discovery.DiscoveryClient [SpringContextShutdownHook] Unregistering ...
+2021-03-25 00:09:18,565 INFO com.netflix.discovery.DiscoveryClient [SpringContextShutdownHook] DiscoveryClient_DATASTORE/host.docker.internal:datastore:0 - deregister  status: 200
+2021-03-25 00:09:18,577 INFO com.netflix.discovery.DiscoveryClient [SpringContextShutdownHook] Completed shut down of DiscoveryClient

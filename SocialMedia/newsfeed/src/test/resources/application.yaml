@@ -1,0 +1,31 @@
+spring:
+  application:
+    name: newsfeed
+  redis:
+    host: redis
+    port: 6379
+  newsfeed:
+    url: http://localhost:8083
+server:
+  port: 8126
+
+eureka:
+  instance:
+    prefer-ip-address: true
+    lease-renewal-interval-in-seconds: 10
+    lease-expiration-duration-in-seconds: 20
+  client:
+    service-url:
+      defaultZone: http://localhost:9090/eureka
+    healthcheck:
+      enabled: true
+    lease:
+      duration: 5
+
+management:
+  security:
+    enabled: false
+
+logging:
+  level:
+    com.us: DEBUG
