@@ -571,6 +571,7 @@ A strong answer usually ends with **real systems comparison**:
 This design above is **very close to Kafka architecture**.
 
 1. High-Level Pub/Sub Architecture
+```
                     +-------------------+
                     |   Cluster Manager |
                     +---------+---------+
@@ -599,6 +600,7 @@ This design above is **very close to Kafka architecture**.
                                               +--------------+
                                               |   Consumers  |
                                               +--------------+
+```
                                               
 2. Broker Cluster Detail
                    +----------------------+
