@@ -1,6 +1,4 @@
-Based on the system design document provided, here is a structured description of the **Sequencer** service, covering requirements, architectural options, and a comparative analysis.
 
----
 
 ## 1. Requirements
 
