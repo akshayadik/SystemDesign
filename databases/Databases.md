@@ -371,9 +371,9 @@ There is **no best database**, only **best fit**.
 
 ---
 
-## Interview Tip (Very Important)
+## Tip (Very Important)
 
-Always answer database questions using this flow:
+Always define database questions using this flow:
 
 1. **Data model**
 2. **Access pattern**
