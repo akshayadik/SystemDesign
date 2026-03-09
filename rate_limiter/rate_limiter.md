@@ -564,7 +564,7 @@ hash(user_id) % N
 
 ---
 
-# 9. Optimizations (Important in Interviews)
+# 9. Optimizations
 
 ### 1 Sharded counters
 
