@@ -601,8 +601,9 @@ This design above is **very close to Kafka architecture**.
                                               |   Consumers  |
                                               +--------------+
 ```
-                                              
+
 2. Broker Cluster Detail
+```
                    +----------------------+
                    |     Broker Cluster   |
                    +----------+-----------+
@@ -623,8 +624,10 @@ This design above is **very close to Kafka architecture**.
    |Partition|           |Partition|              |Partition|
    |   P1    |           |   P2    |              |   P3    |
    +---------+           +---------+              +---------+
-   
+```
+
 3. Message Flow
+```
 Producer
    |
    | publish(message)
@@ -653,9 +656,10 @@ Producer
 +----------------+
 |   Consumers    |
 +----------------+
+```
 
 4. Topic → Partition → Segment Layout
-
+```
 Topic: OrderEvents
 |
 +-- Partition 0
@@ -683,8 +687,9 @@ Consumer A
 
 Key: consumerA_topic1_partition0
 Value: offset=1452
-
+```
 6. System Design
+```
                  +------------------+
                  |  Metadata Store  |
                  +---------+--------+
@@ -705,6 +710,4 @@ Value: offset=1452
            +--------+ +--------+ +--------+
            | Part 0 | | Part 1 | | Part 2 |
            +--------+ +--------+ +--------+
-                                                                   
-
-
+```                                                                   
